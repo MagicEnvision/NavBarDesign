@@ -11,16 +11,20 @@ const NavBar3 = () => {
                     <div className=' h-12 w-1 bg-gray-700 mx-2'>
                     </div>
 
-                    <button className='text-white text-center items-center flex g'><i className='bx bxs-user-circle text-white pr-1'></i>Sign Up</button>
+                    <button className='text-white text-center items-center flex'><i className='bx bxs-user-circle text-white pr-1'></i>Sign Up</button>
                 </div>
                 <div>
-                    <ul className='flex items-center justify-center text-white font-medium gap-2'>
-                        <li>Sports</li>
-                        <li>Entertainment</li>
-                        <li>Technology</li>
-                        <li>Local</li>
-                        <li>World-Wide</li>
+                    <ul className='hidden items-center h-12 xl:flex text-white font-medium'>
+                        <li className='hover:bg-sky-500 px-3 h-full flex items-center'>Sports</li>
+                        <li className='hover:bg-sky-500 px-3 h-full flex items-center'>Entertainment</li>
+                        <li className='hover:bg-sky-500 px-3 h-full flex items-center'>Technology</li>
+                        <li className='hover:bg-sky-500 px-3 h-full flex items-center'>Local</li>
+                        <li className='hover:bg-sky-500 px-3 h-full flex items-center'>World-Wide</li>
                     </ul>
+                </div>
+                <div className=" hidden md:flex gap-3 items-center">
+                    <i className='bx bx-search text-white font-semibold'></i>
+                    <input type="text" placeholder='Search' className=' rounded-lg px-2' />
                 </div>
             </div>
         </nav>
