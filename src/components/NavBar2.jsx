@@ -6,7 +6,7 @@ import { useState } from 'react'
 const NavBar2 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-    <div className=' w-full absolute bg-gradient-to-r from-blue-400 to-emerald-500 border-b-8 border-zinc-950'>
+    <div className=' w-full bg-gradient-to-r from-blue-400 to-emerald-500 border-b-8 border-white'>
       <header className='flex justify-between items-center text-black py-6 px-8 md:px-32 bg-white drop-shadow-md'>
 
         <a href="#">
