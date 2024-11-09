@@ -12,6 +12,7 @@ const App = () => {
       <Navbar1 />
       <NavBar2 />
       <NavBar3 />
+      <NavBar4 />
 
 
 
